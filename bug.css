@@ -1,0 +1,1 @@
+The CSS property `calc()` is used incorrectly, causing unexpected layout behavior. For example, using `calc(100% - 10px)` inside a flexbox container may not work as expected if the container's size depends on its content.
